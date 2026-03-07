@@ -9,7 +9,7 @@ import Dashboard from "./pages/Dashboard";
 export default function App() {
     return (
         <AuthProvider>
-            <BrowserRouter>
+            <BrowserRouter basename="/Green-Lease-Admin/">
                 <Routes>
                     <Route path="/" element={<Login />} />
                     <Route path="/signup" element={<Signup />} />
